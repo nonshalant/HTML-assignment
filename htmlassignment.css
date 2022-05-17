@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
+}
+h1{
+    font-size:5rem;
+    font-family: 'poppins';
+}
+section{
+    padding:4% 0;
+}
+
+form{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+form input{font-size: 3rem;}
+form input:focus{border: 2px solid blue;}
+
+form h1{
+    text-align: center;
+}
+
+form .name_fields{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+form .name_fields input{
+    width: 90%;
+    padding: 1.5%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+form #users_number{
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+
+form #users_email{
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+
+.button_container{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.terms_agreement{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+}
+
+.terms_agreement .register_span{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.terms_agreement .terms_span{
+    color: cornflowerblue;
+}
+
+.button_container button{
+    width: 100%;
+    padding: 2%;
+    font-size: 2rem;
+    color: white;
+}
+
+.button_container button{background-color: green;}
+
+.button_container .register_btn{background-color: blue;}
+
+
+/* MEDIA QUERIES  */
+
+
+@media screen and (max-width: 767px) {
+    form{
+        border: 1px solid red;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    form{
+        border: 1px solid red;
+        width: 80%;
+    }
+}

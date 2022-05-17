@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="htmlassignment.css">
+    <title>HTML Assignment</title>
+</head>
+<body>
+    <form id="user_form" action="">
+        <h1>Sign Up</h1>
+        <div class="name_fields">
+            <input required placeholder="First Name" type="name" name="first_name" id="first_name">
+            <input required placeholder="Last Name" type="name" name="last_name" id="last_name">
+        </div>
+        <input required placeholder="Mobile No." type="tel" name="users_number" id="users_number">
+        <input required placeholder="Email Address" type="email" name="users_email" id="users_email">
+        <div class="name_fields">
+            <input required placeholder="Password" type="password" name="users_password" id="users_password">
+            <input required placeholder="Confirm Password" type="password" name="users_password" id="users_password">
+        </div>
+
+        <div class="terms_agreement">
+            <div class="terms_checkbox">
+                <input required type="checkbox" name="checkbox" id="checkbox"> 
+                <label for="checkbox"> I Agree</label>
+            </div>
+            <p>By clicking <span class="register_span">Register</span>, you agree to use the <span class="terms_span">Terms and Conditions</span> set out by the site, including our Coockie Use.</p>
+        </div>
+
+        <div class="button_container">
+            <button class="register_btn">Register</button>
+            <button class="signup_btn">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
