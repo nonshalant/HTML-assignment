@@ -126,14 +126,14 @@ form #users_email{
 
 @media screen and (max-width: 767px) {
     form{
-        border: 1px solid red;
+     
         width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     form{
-        border: 1px solid red;
+        
         width: 80%;
     }
 }
